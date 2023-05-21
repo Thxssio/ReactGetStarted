@@ -220,7 +220,7 @@ export default function Board() {
 ```
 - [x] Return Botton
 
-*** Aqui eu já me perdi no que estava fazendo...***
+***Aqui eu já me perdi no que estava fazendo...***
 
 ```
 import { useState } from 'react';
