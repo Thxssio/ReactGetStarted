@@ -59,6 +59,75 @@ export default function Square() {
   );
 }
 
+```
+- [x] Matrix 3x3
 
+***Update Sintax Code***
 
 ```
+
+
+export default function Board() {
+  return (
+    <>
+    <div align="center">
+    <div>
+    <button className="board-row">1</button>
+    <button className="board-row">2</button>
+    <button className="board-row">3</button>
+    </div>
+
+    <div>
+    <button className="board-row">1</button>
+    <button className="board-row">2</button>
+    <button className="board-row">3</button>
+    </div>
+
+    <div>
+    <button className="board-row">1</button>
+    <button className="board-row">2</button>
+    <button className="board-row">3</button>
+    </div>
+    </div>
+    </>
+  );
+}
+```
+
+
+to:
+
+```
+function Square(){
+  return <button className="square">X</button>;
+}
+
+export default function Board() {
+  return (
+    <>
+    <div align="center">
+    <div>
+      <Square/>
+      <Square/>
+      <Square/>
+    </div>
+
+    <div> 
+      <Square/>
+      <Square/>
+      <Square/>
+    </div>
+
+    <div>
+      <Square/>
+      <Square/>
+      <Square/>
+    </div>
+    </div>
+    </>
+  );
+}
+
+```
+
+- [x] Update Sintaxe
